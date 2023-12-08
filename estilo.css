@@ -45,14 +45,7 @@ body{
   }
 
 .botao {
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-  }
-
-.botao {
-color: #FFF;
+color: grey;
 font-family: Open Sans;
 font-size: 17px;
 font-style: normal;
@@ -61,7 +54,7 @@ line-height: normal;
   }
 
 .botao:hover {
-    background-color: #777;
+    background-color: #982c2c;
   }
 .inicio {
     padding: 0px 470px 250px 400px;
@@ -78,7 +71,7 @@ justify-content: space-between;
     align-items: flex-start;
     width: auto 632px;
     height:fixed 546px;
-    justify-content: space-between 27px;
+    justify-content: space-between;
     padding: 27px 200px 15px 720px;
 }
 
