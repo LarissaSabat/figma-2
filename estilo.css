@@ -13,7 +13,7 @@ body{
   background-color: black;
 }
 
-.botao .primeiro .segundo .terceiro h1 h2 h3 .direita .center .esquerda {
+.botao .primeiro .segundo .terceiro h1 h2 h3 .direita .center .esquerda .pune {
   font-family: Open Sans, sans-serif;
   font-style: normal;
 }
@@ -44,16 +44,13 @@ nav ul li a {
   text-decoration: none;
 }
 
-.pesquisar {
-  display: flex;
-  align-items: center;
-}
-
 .botao {
-  color: grey;
+  color: black;
   font-size: 17px;
   font-weight: 400;
   line-height: normal;
+  display: flex;
+  align-items: center;
 }
 
 .inicio {
@@ -76,18 +73,35 @@ nav ul li a {
   padding: 27px 200px 15px 720px;
 }
 
+.fotoMontanha{
+  display: fixed;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 598px;
+  height: 720px;
+  padding: 1px 1000px 5px 228px;
+}
+
 .paragrafomeio {
   padding: 229px 229px 250px 228px;
   display: flex;
   justify-content: space-between;
 }
+
 .segundo{
   color: #333;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
   line-height: 32px;
-  padding: 250px 114px 82px 115px;
+  padding: 830px 114px 82px 115px;
+}
+
+.grandesalao {
+  width: 1461px;
+  height: 985px;
+  flex-shrink: 0;
+  padding: 250px 229px 1px 230px;
 }
 
 .paragrafotres{
@@ -102,6 +116,13 @@ nav ul li a {
   font-weight: 400;
   line-height: 32px; /* 177.778% */
   padding: 250px 490px 116px 1px;
+}
+
+.portalDePedra{
+  width: 578.488px;
+  height: 720px;
+  flex-shrink: 0;
+  padding: 250px 229px 250px 1100px;
 }
 
 h3{
