@@ -13,7 +13,7 @@ body{
   background-color: black;
 }
 
-.botao .primeiro .segundo .terceiro h1 h2 h3 .direita .center .esquerda .pune {
+.botao .primeiro .segundo .terceiro h1 h2 h3 .direita .center .esquerda .pune #puneFooter {
   font-family: Open Sans, sans-serif;
   font-style: normal;
 }
@@ -44,7 +44,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-.botao {
+.botaoBusca {
   color: black;
   font-size: 17px;
   font-weight: 400;
@@ -168,4 +168,15 @@ h1{
   font-size: 18px;
   font-weight: 400;
   line-height: 32px; /* 177.778% */
+}
+
+.botaoConhecer{
+  border-radius: 8px;
+  background: #FFA343;
+  width: 239.35px;
+  height: 69.136px;
+  flex-shrink: 0;
+  line-height: normal;
+  display: flex;
+  align-items: center;
 }
