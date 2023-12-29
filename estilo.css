@@ -74,7 +74,7 @@ nav ul li a {
 }
 
 .fotoMontanha{
-  display: fixed;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 598px;
