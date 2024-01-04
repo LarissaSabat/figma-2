@@ -1,223 +1,231 @@
 header {
-    color: #fff;
-    padding: 64px 84px 198px 85px; /* top, right, bottom, left */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  color: #fff;
+  padding: 64px 84px 198px 85px; /* top, right, bottom, left */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 body{
-  background-image:url(https://s3-alpha-sig.figma.com/img/f0d6/9495/4400f04eda0dbe58a0e070d72fd2ec25?Expires=1702252800&Signature=pT6UghRxCFXm14XnZy-W6yD8oPhEZPQ~~RmZupILXUr4Q0clzKjZ6lc5gej6Sq80StrqGhgW-knmQBE-eE0JP8o867lZCTtK3gX4Snlnkuv5XP0u9jlaglpOOCzWceo7YSyXB3H2vCMx0bs44Zu7GgDXVFojoAbTIU2aU5HqEun~vno2vobomrTEPlnzmBjzRVXBW0lH4hE2D4H-5NfZLAOeTpI3EMU7v5CB3TkoZOmfVzSOzxVwS-w3LDV6-~rH4-V1RvG1r1DMpITIDXyLE5pxzpPF1dMnALfVpucbWM53p6IjVNdS9MACib~L3~QFusuZhXBa9gGYLdLnnJrtYw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-color: black;
+background-image:url(https://s3-alpha-sig.figma.com/img/f0d6/9495/4400f04eda0dbe58a0e070d72fd2ec25?Expires=1702252800&Signature=pT6UghRxCFXm14XnZy-W6yD8oPhEZPQ~~RmZupILXUr4Q0clzKjZ6lc5gej6Sq80StrqGhgW-knmQBE-eE0JP8o867lZCTtK3gX4Snlnkuv5XP0u9jlaglpOOCzWceo7YSyXB3H2vCMx0bs44Zu7GgDXVFojoAbTIU2aU5HqEun~vno2vobomrTEPlnzmBjzRVXBW0lH4hE2D4H-5NfZLAOeTpI3EMU7v5CB3TkoZOmfVzSOzxVwS-w3LDV6-~rH4-V1RvG1r1DMpITIDXyLE5pxzpPF1dMnALfVpucbWM53p6IjVNdS9MACib~L3~QFusuZhXBa9gGYLdLnnJrtYw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+background-size: cover; 
+background-repeat: no-repeat;
+background-color: black;
 }
 
 .botao .primeiro .segundo .terceiro h1 h2 h3 .direita .center .esquerda .pune #puneFooter p{
-  font-family: Open Sans, sans-serif;
-  font-style: normal;
+font-family: Open Sans, sans-serif;
+font-style: normal;
 }
 
 .pune {
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
+justify-content: flex-start;
+font-size: 24px;
+margin: 0;
+padding: 0;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
 }
 
 nav ul li {
-  margin-right: 15px;
+margin-right: 15px;
 }
 
 nav ul li:last-child {
-  margin-right: 0;
+margin-right: 0;
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
+color: #fff;
+text-decoration: none;
 }
 
 p{
-  color: #FFF;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 177.778% */
+color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
 }
 
 .botaoBusca {
-  color: black;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: normal;
-  display: flex;
-  align-items: center;
+color: black;
+font-size: 17px;
+font-weight: 400;
+line-height: normal;
+display: flex;
+align-items: center;
 }
 
 .inicio {
-  padding: 1px 470px 250px 400px;
+padding: 1px 470px 250px 400px;
 }
 
 .paragrafoum  {
-  padding: 229px 229px 250px 228px;
-  display: flex;
-  justify-content: space-between;
+padding: 229px 229px 250px 228px;
+display: flex;
+justify-content: space-between;
 }
 
 .primeiro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width:  632px;
-  height: 546px;
-  justify-content: space-between;
-  padding: 27px 200px 15px 720px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width:  632px;
+height: 546px;
+justify-content: space-between;
+padding: 27px 200px 15px 720px;
 }
 
 .fotoMontanha{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 598px;
-  height: 720px;
-  padding: 1px 150px 5px 228px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 598px;
+height: 720px;
+padding: 1px 150px 5px 228px;
 }
 
 .paragrafomeio {
-  padding: 229px 229px 250px 228px;
-  display: flex;
-  justify-content: space-between;
+padding: 229px 229px 250px 228px;
+display: flex;
+justify-content: space-between;
 }
 
 .segundo{
-  color: #333;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 32px;
-  padding: 150px 114px 82px 115px;
+color: #333;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+padding: 150px 114px 82px 115px;
 }
 
 .grandesalao {
-  width: 1461px;
-  height: 985px;
-  flex-shrink: 0;
-  padding: 250px 229px 1px 230px;
+width: 1461px;
+height: 985px;
+flex-shrink: 0;
+padding: 250px 229px 1px 230px;
 }
 
 .paragrafotres{
-  padding: 229px 229px 250px 228px;
-  display: flex;
-  justify-content: space-between;
+padding: 229px 229px 250px 228px;
+display: flex;
+justify-content: space-between;
 }
 
 .terceiro{
-  color: #333;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 32px; /* 177.778% */
-  padding: 250px 490px 116px 1px;
+color: #333;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+padding: 250px 490px 116px 1px;
 }
 
 .portalDePedra{
-  width: 578.488px;
-  height: 720px;
-  flex-shrink: 0;
-  padding: 250px 229px 250px 1100px;
+width: 578.488px;
+height: 720px;
+flex-shrink: 0;
+padding: 250px 229px 250px 1100px;
 }
 
 h3{
-  color: #FFC178;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 6px;
-  text-transform: uppercase;
+color: #FFC178;
+font-size: 10px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 6px;
+text-transform: uppercase;
 }
 
 h2{
-  color: #FFF;
-  font-size: 45px;
-  font-weight: 400;
-  line-height: 100px;
-  text-transform: capitalize;
+color: #FFF;
+font-size: 45px;
+font-weight: 400;
+line-height: 100px;
+text-transform: capitalize;
 }
 
 h1{
-  color: #FFF;
-  font-size: 50px;
-  font-weight: 700;
+color: #FFF;
+font-size: 50px;
+font-weight: 700;
 }
 
 .direita{
-  color: #FFF;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 32px; /* 177.778% */
+color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
 }
 
 .center{
-  color: #FFF;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 32px; /* 177.778% */
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
 }
 
 .esquerda {
-  color: #FFF;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 32px; /* 177.778% */
+color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
 }
 
 .botaoConhecer{
-  border-radius: 8px;
-  background: #FFA343;
-  width: 239.35px;
-  height: 69.136px;
-  flex-shrink: 0;
-  line-height: normal;
-  display: flex;
-  align-items: center;
+border-radius: 8px;
+background: #FFA343;
+width: 239.35px;
+height: 69.136px;
+flex-shrink: 0;
+line-height: normal;
+display: flex;
+align-items: center;
 }
 
 #puneFooter{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+display: flex;
+align-content: center;
+  justify-content: space-between
+}
+
+.footerADireita{
+  display: inline-flex;
+  align-content:flex-end;
+justify-content:space-around;
 }
 
 #inserirEmail{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 #email{
-  width: 399px;
-  height: 70px;
-  flex-shrink: 0;
-  background-color: #000;
+width: 399px;
+height: 70px;
+flex-shrink: 0;
+background-color: #000;
 }
 
 .botaoEnviar{
-  width: 69px;
-  height: 69px;
-  flex-shrink: 0;
-  border-radius: 8px 8px 0px 0px;
-  background: #FFA343;
+width: 69px;
+height: 69px;
+flex-shrink: 0;
+border-radius: 8px 8px 0px 0px;
+background: #FFA343;
 }
 
-.coluna1 .coluna2{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.faq{
+  
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
