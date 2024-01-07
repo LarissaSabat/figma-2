@@ -13,7 +13,9 @@ background-repeat: no-repeat;
 background-color: black;
 }
 
-.botao .primeiro .segundo .terceiro h1 h2 h3 .direita .center .esquerda .pune #puneFooter p{
+.pune nav .botaoBusca .centro .inicio .paragradoUm .primeiro .direita .paragrafoMeio .segundo .center 
+.paragrafoTres .terceiro .esquerda #puneFooter .footerADireita .botaoConhecer #inserirEmail #email .botaoEnviar.faq 
+.coluna1 .coluna2 p h1 h2 h3 {
 font-family: Open Sans, sans-serif;
 font-style: normal;
 }
@@ -228,4 +230,12 @@ background: #FFA343;
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
+
+.coluna1 .coluna2{
+  display: inline-flex;
+  padding: 34px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px; 
 }
